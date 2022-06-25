@@ -2,10 +2,10 @@
   "name": "razorpay-app",
   "version": "1.0.0",
   "description": "",
-  "main":"app.js",
+  "main":"index.js",
   "scripts": {
     "start": "npm-run-all --serial nodemon",
-    "nodemon": "nodemon -r dotenv/config --exec babel-node app.js",
+    "nodemon": "nodemon -r dotenv/config --exec babel-node index.js",
     "clean": "rimraf dist",
     "webpack": "webpack --config ./.scripts/webpack.config.js"
   },
