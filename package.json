@@ -6,7 +6,6 @@
     "start": "npm-run-all --serial nodemon",
     "nodemon": "nodemon -r dotenv/config --exec babel-node app.js",
     "clean": "rimraf dist",
-    "build": "npm-run-all --serial clean webpack",
     "webpack": "webpack --config ./.scripts/webpack.config.js"
   },
   "author": "Vikas kumar",
